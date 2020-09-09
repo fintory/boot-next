@@ -1,0 +1,9 @@
+{
+  "extends": "@fintory/eslint-config",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "import/extensions": "off"
+  }
+}
