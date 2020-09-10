@@ -8,16 +8,15 @@ const Title = styled.h1`
 
 export default function PageHome() {
   const { applicationStore } = useMst()
-  const fullDate = `${applicationStore.currentDate.toLocaleDateString('de', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  })}`
 
   return (
     <>
-      <Title>Hallo! Heute ist {fullDate}.</Title>
+      <Title>
+        Hallo! Heute ist {applicationStore.formattedDate}.{' '}
+        <button onClick={() => applicationStore.increaseByOneDay()}>
+          Add a day
+        </button>
+      </Title>
     </>
   )
 }
