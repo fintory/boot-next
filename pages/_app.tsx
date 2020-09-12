@@ -1,13 +1,16 @@
 import type { AppProps } from 'next/app'
-import { useObserver } from 'mobx-react'
-import { Provider, RootStore } from '../store'
+import { useProvider, useCreateStore } from 'mobx-store-provider'
+import { RootStore } from '../store'
 
 const App = ({ Component, pageProps }: AppProps) => {
-  return useObserver(() => (
-    <Provider value={RootStore}>
+  const applicationStore = useCreateStore(() => RootStore)
+  const Provider = useProvider()
+
+  return (
+    <Provider value={applicationStore}>
       <Component {...pageProps} />
     </Provider>
-  ))
+  )
 }
 
 export default App

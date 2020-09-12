@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import { types, Instance } from 'mobx-state-tree'
 
 export const ApplicationStore = types
@@ -16,7 +17,9 @@ export const ApplicationStore = types
   }))
   .actions((self) => ({
     increaseByOneDay() {
-      self.currentDate.setDate(self.currentDate.getDate() + 1)
+      self.currentDate = new Date(
+        self.currentDate.setDate(self.currentDate.getDate() + 1)
+      )
     },
   }))
 
