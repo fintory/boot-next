@@ -9,7 +9,7 @@ Next.js is a very nice tool, when it comes to easy deployment, since you do not 
 
 ### Step 1: Customize the package.json
 
-We need to add a custom [NPM script](scripts) to our `package.json` to enable the build step for Heroku. For this, add the following line of code into the "scripts" section of your `package.json`:
+We need to add a custom [NPM script](./features-scripts.md) to our `package.json` to enable the build step for Heroku. For this, add the following line of code into the "scripts" section of your `package.json`:
 
 ```json
 {

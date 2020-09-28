@@ -23,7 +23,7 @@ When commiting we are linting the code for typescript issues, and for eslint iss
 
 #### Scripts running
 
-When a commit is prepared, `yarn lint` is being run. You can find the definition of the npm scripts in the [scripts](scripts) section of this documentation.
+When a commit is prepared, `yarn lint` is being run. You can find the definition of the npm scripts in the [scripts](./features-scripts.md) section of this documentation.
 
 ### `pre-push`
 
@@ -31,4 +31,4 @@ Soon to come. We are going to implement a test-driven system here, since tests a
 
 ## Caveats
 
-You are not able to use Tower to commit or even use the git-hooks since Tower doesn't come with a proper shell environment. [Read more.](gittower)
+You are not able to use Tower to commit or even use the git-hooks since Tower doesn't come with a proper shell environment. [Read more.](./caveats-using-gittower.md)

@@ -23,4 +23,4 @@ Please be careful with public repositories.
 
 ### Step 3: Remove unused folders
 
-If you want to keep the project clean, and don't want to document everything you do in the new project, you are free to remove some folders. You can have a look at the "[Project Structure](/docs)" document, whether the folder is safe to remove or not.
+If you want to keep the project clean, and don't want to document everything you do in the new project, you are free to remove some folders. You can have a look at the "[Project Structure](./project-structure.md)" document, whether the folder is safe to remove or not.
