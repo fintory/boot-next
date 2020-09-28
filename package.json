@@ -18,7 +18,8 @@
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "styled-reset": "^4.2.3"
   },
   "devDependencies": {
     "@fintory/eslint-config": "^0.3.3",
