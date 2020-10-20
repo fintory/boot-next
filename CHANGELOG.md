@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/fintory/boot-next/compare/0.2.1...0.2.2) (2020-10-20)
+
+
+### Bug Fixes
+
+* **deps:** regenerate yarn.lock ([2214a63](https://github.com/fintory/boot-next/commit/2214a630d76a340c33447edc33fce5e0bd05f251))
+
+
+
 ## [0.2.1](https://github.com/fintory/boot-next/compare/0.2.0...0.2.1) (2020-10-20)
 
 
