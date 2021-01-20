@@ -6,6 +6,10 @@ const GlobalStyle = createGlobalStyle`
   
   body {
     font-family: 'Helvetica', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
   }
 `
 
