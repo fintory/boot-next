@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "esnext",
     "module": "esnext",
     "jsx": "preserve",
@@ -7,6 +8,11 @@
       "dom",
       "es2017"
     ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
     "moduleResolution": "node",
     "allowJs": true,
     "noEmit": true,
